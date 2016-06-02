@@ -1,0 +1,24 @@
+{
+  "name": "deck",
+  "version": "0.0.0",
+  "description": "make a card",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kingpixil/deck.git"
+  },
+  "author": "Kabir Shah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kingpixil/deck/issues"
+  },
+  "homepage": "https://github.com/kingpixil/deck#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4"
+  }
+}

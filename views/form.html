@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Deck</title>
+	<link rel="stylesheet" href="./css/styles.css"/>
+</head>
+<body>
+    <div class="notFooter">
+    <div class="centered text-center animate fadeIn contain">
+        <p id="error">That URL is already taken</p>
+<form action="/new" method="POST">
+   <input type="text" name="name" placeholder="Your Name" autocomplete="off" required/>
+   <br/>
+   <input type="text" name="url" placeholder="URL (deck.ml/url)" autocomplete="off" required/>
+   <br/>
+   <input type="text" name="bio" placeholder="A Biography on Yourself" autocomplete="off" required/>
+   <br/>
+   <input type="url" name="link" placeholder="Link - To anything" autocomplete="off" required/>
+   <br/>
+   <input type="text" name="linkText" placeholder="Text For The Link" autocomplete="off" required/>
+   <br/>
+    <input class="btn btn-outline" type="submit"/>
+</form>
+    </div>
+    <script src="./js/lib/paint.min.js"></script>
+    <script src="./js/scripts.js"></script>
+</body>
+</html>
