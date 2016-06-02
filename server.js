@@ -31,7 +31,7 @@ app.post("/new", function (req, res) {
     var key = url.toLowerCase();
     cards[key] = {name: name, bio: bio, linkText:linkText, link: link, exists:true};
     console.log('Made Key ' + key);
-    res.send(`<!DOCTYPE html>
+    /*res.send(`<!DOCTYPE html>
     <html>
     <head>
     <title>Deck</title>
@@ -48,7 +48,8 @@ app.post("/new", function (req, res) {
     <script src='./js/lib/clipboard.min.js'></script>
     <script src='./js/scripts.js'></script>
     </body>
-    </html>`);
+    </html>`);*/
+    res.redirect('/' + key);
     } else {
         res.redirect('/form?taken=true');
     }
