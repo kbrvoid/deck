@@ -1,14 +1,35 @@
-body {
-    background: black;
+body, html {
+    background: transparent;
     color: white;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
-#landing {
+#landing #hero {
+  height: 100vh;
+  width: 100vw;
     background-image: url('https://images.unsplash.com/photo-1437326401470-c3bf383e201e?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=3087f9adf6cba1bd41c185bd12c55870');
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+}
+
+#landing #about {
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  background: white;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#landing #about .content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 
@@ -56,7 +77,8 @@ body {
 }
 
 #catch {
-  font-size: 5vh;  
+  font-size: 5vh; 
+  font-family: 'Quicksand', 'Raleway';
 }
 
 input {
@@ -101,7 +123,7 @@ input:focus {
 }
 
 #footer {
-  position: absolute;
+  position: fixed;
   bottom: 5%;
   right: 5%;
 }
@@ -224,6 +246,12 @@ input:focus {
   }
 }
 
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 /* Card Styles */
 #card {
   background-image: url('../img/earth.jpg');
