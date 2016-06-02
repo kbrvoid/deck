@@ -52,6 +52,11 @@ body {
 
 .bolder {
   font-weight: bolder;
+  font-size: 15vh;
+}
+
+#catch {
+  font-size: 5vh;  
 }
 
 input {
