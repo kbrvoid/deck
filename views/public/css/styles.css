@@ -32,6 +32,11 @@ body, html {
   transform: translateY(-50%);
 }
 
+#formPage {
+  background: black;
+  color: white;
+}
+
 
 
 body {
