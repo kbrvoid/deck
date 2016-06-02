@@ -3,8 +3,8 @@ var app = express();
 var bodyParser = require('body-parser');
 var path = require("path");
 
-//var BASE_URL = 'https://delit.herokuapp.com/';
-var BASE_URL = 'http://deck-bruhr.c9users.io/';
+var BASE_URL = 'https://mydeck.herokuapp.com/';
+//var BASE_URL = 'http://deck-bruhr.c9users.io/';
 
 var cards = {};
 
