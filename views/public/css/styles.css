@@ -1,6 +1,11 @@
 body {
     background: black;
     color: white;
+    background-image: url('https://images.unsplash.com/photo-1443453489887-98f56bc5bb38?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=ebbdd1c51d315bf2bdcba3f56e6c2ba6');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 body {
